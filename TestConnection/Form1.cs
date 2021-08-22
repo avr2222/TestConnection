@@ -20,6 +20,7 @@ namespace TestConnection
         {
             try
             {
+                //Test Window
                 using (OracleConnection con = new OracleConnection(txtConnection_string.Text))
                 {
                     con.Open();
