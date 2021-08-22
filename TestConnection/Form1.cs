@@ -20,7 +20,7 @@ namespace TestConnection
         {
             try
             {
-                //Test Git
+                //Test Git Hub
                 using (OracleConnection con = new OracleConnection(txtConnection_string.Text))
                 {
                     con.Open();
