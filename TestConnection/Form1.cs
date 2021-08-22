@@ -20,7 +20,7 @@ namespace TestConnection
         {
             try
             {
-                //Test Window
+                //Test Git
                 using (OracleConnection con = new OracleConnection(txtConnection_string.Text))
                 {
                     con.Open();
